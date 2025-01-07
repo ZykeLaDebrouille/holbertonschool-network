@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 # Ce script contient les réponses pour les questions sur UDP et TCP
 1
 2
