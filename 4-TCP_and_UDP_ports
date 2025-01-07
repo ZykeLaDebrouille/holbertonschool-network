@@ -1,0 +1,3 @@
+#!/bin/bash
+# Ce script affiche les ports en écoute et les programmes associés
+netstat -tuln | grep LISTEN
