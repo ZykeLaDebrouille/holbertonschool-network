@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # Ce script vérifie si un hôte est sur le réseau en utilisant ping
 if [ "$#" -eq 0 ]; then
     echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
