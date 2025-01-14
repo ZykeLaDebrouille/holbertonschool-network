@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Ce script affiche les ports en écoute et les programmes associés
-sudo lsof -nP -iTCP -sTCP:LISTEN
+# sudo lsof -nP -iTCP -sTCP:LISTEN mais il existe plus simple
+netstat -lp
